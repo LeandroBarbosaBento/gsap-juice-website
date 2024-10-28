@@ -226,3 +226,85 @@ nav {
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
 }
 
+.flavour {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.content {
+  text-align: center;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.content h2 {
+  font-size: 3rem;
+  font-weight: 900;
+  color: var(--primary-color);
+  font-family: var(--header-font);
+  margin-bottom: 5px;
+}
+
+.content p.subtitle {
+  font-size: 1.2rem;
+  color: var(--text-light);
+  margin-bottom: 20px;
+}
+
+.content p.description {
+  max-width: 700px;
+  margin: 0 auto 70px;
+  color: var(--text-dark);
+  line-height: 1.8;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  display: felx;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+  padding: 15px;
+  background: var(--brown-color);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  width: 220px;
+}
+
+#bottle-choco {
+  position: absolute;
+  width: 27%;
+  z-index: 9;
+  top: 129%;
+  right: 4%;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+
+#date-nuts {
+  position: absolute;
+  width: 8%;
+  z-index: 10;
+  top: 150%;
+  right: 16%;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+
+.card h3 {
+  color: var(--text-dark);
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  margin-top: 120px;
+}
+
+.card p {
+  color: var(--text-light);
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
