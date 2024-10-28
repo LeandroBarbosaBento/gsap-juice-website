@@ -112,7 +112,6 @@ nav {
 
 #main {
   max-width: 1280px;
-  border: 2px solid red;
   margin: auto;
   width: 100%;
   height: 95vh;
@@ -282,8 +281,8 @@ nav {
   position: absolute;
   width: 27%;
   z-index: 9;
-  top: 129%;
-  right: 4%;
+  top: 135%;
+  right: 5%;
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
 }
 
@@ -291,7 +290,7 @@ nav {
   position: absolute;
   width: 8%;
   z-index: 10;
-  top: 150%;
+  top: 155%;
   right: 16%;
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
 }
@@ -307,4 +306,57 @@ nav {
   color: var(--text-light);
   font-size: 1rem;
   margin-bottom: 15px;
+}
+
+.fresh {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--brown-color);
+  padding: 100px;
+  height: 80vh;
+}
+
+.content {
+  width: 100%;
+}
+
+#fruits {
+  position: absolute;
+  width: 30%;
+  z-index: 3;
+  top: 170%;
+  left: -5%;
+  transition: all cubic-bezier(0.19, 1, 0,22, 1) 0.5s;
+
+}
+
+.content h2 {
+  color: var(--primary-color);
+  font-family: var(--header-font);
+  margin-bottom: 50px;
+}
+
+.content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.content li {
+  display: flex;
+  align-items: center;
+  color: var(--text-light);
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.content li i {
+  margin-right: 10px;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+}
+
+.blob {
+  width: 130%;
+  height: auto;
 }
