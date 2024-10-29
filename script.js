@@ -3,7 +3,7 @@ const tl = gsap.timeline({scrollTrigger: {
     start: "0% 95%",
     end: "90% 10%",
     scrub: true,
-    markers: true,
+    markers: false,
 }})
 
 tl.to("#bottle-strawberry", {
@@ -51,10 +51,50 @@ tl.to("#berry2", {
     rotate: "120deg",
 }, "one")
 
+const tl2 = gsap.timeline({scrollTrigger: {
+    trigger: ".fresh",
+    start: "0% 95%",
+    end: "50% 50%",
+    scrub: true,
+    markers: true,
+}})
+
+tl2.to("#bottle-strawberry", {
+    top: "207%",
+    left: "50%",
+    width: "40%",
+}, "two")
 
 
+tl2.to("#bottle-mango", {
+    top: "207%",
+    left: "55.5%",
+    width: "38%",
+}, "two")
+
+tl2.to("#bottle-berry", {
+    top: "205%",
+    left: "45%",
+    width: "38%",
+}, "two")
+
+tl2.to("#strawberry", {
+    top: "245%",
+    left: "5%",
+    width: "12%",
+}, "two")
+
+tl2.to("#mangoslice", {
+    top: "235%",
+    left: "75%",
+    width: "12%",
+}, "two")
 
 
-
+tl2.to("#berry", {
+    top: "230%",
+    left: "53%",
+    width: "12%",
+}, "two")
 
 
