@@ -360,3 +360,65 @@ nav {
   width: 130%;
   height: auto;
 }
+
+.favorites {
+  text-align: center;
+  padding: 130px;
+}
+
+.favorites h2 {
+  font-size: 3rem;
+  color: var(--primary-color);
+  font-family: var(--header-font);
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.fav-card {
+  background-color: var(--white-color);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+#bottle-date {
+  position: absolute;
+  width: 160%;
+  z-index: 2;
+  left: -30%;
+  bottom: -5%;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+
+.card-details {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.fav-card h3 {
+  font-size: 1.2rem;
+  color: var(--text-dark);
+  margin-bottom: 5px;
+}
+
+.stars {
+  color: #ffc107;
+  margin-bottom: 5px;
+}
+
+.price {
+  color: var(--primary-color-dark);
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
