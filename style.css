@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
-/*============VARIABLES=============*/
-
 :root {
   --primary-color: #82b440;
   --primary-color-dark: #669933;
@@ -421,4 +419,73 @@ nav {
   color: var(--primary-color-dark);
   font-size: 1.1rem;
   margin-bottom: 10px;
+}
+
+
+.story {
+  text-align: center;
+  padding: 50px 20px;
+  width: 100%;
+  margin: auto;
+  background-color: var(--brown-color);
+}
+
+.story h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  font-family: var(--header-font);
+  margin-bottom: 10px;
+}
+
+.story p.subtitle {
+  font-size: 1.2rem;
+  color: var(--text-light);
+  margin-bottom: 20px;
+}
+
+.story p.description {
+  max-width: 700px;
+  line-height: 1.8;
+  color: var(--text-dark);
+  margin: 0 auto 30px;
+}
+
+.story .images-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.story .images-grid img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.story .footer {
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.story .footer .social-icons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.story .footer .social-icons a {
+  color: #606060;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+.story .footer .social-icons a:hover {
+  color: var(--primary-color);
 }
