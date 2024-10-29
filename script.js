@@ -51,6 +51,13 @@ tl.to("#berry2", {
     rotate: "120deg",
 }, "one")
 
+tl.to("#strawberryslices", {
+    top: "115%",
+    left: "-35%",
+    width: "30%",
+    rotate: "120deg",
+}, "one")
+
 const tl2 = gsap.timeline({scrollTrigger: {
     trigger: ".fresh",
     start: "0% 95%",
