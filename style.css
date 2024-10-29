@@ -58,6 +58,7 @@ nav {
   gap: 2rem;
   margin-inline: auto;
   height: 10vh;
+  padding: 0px 15px;
 }
 
 .nav-header {
